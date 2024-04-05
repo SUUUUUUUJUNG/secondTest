@@ -25,6 +25,7 @@ public class MainController {
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String main() {
 		System.out.println("///////////////////////");
+		System.out.println("젠킨스");
 		return "main"; //main.jsp 
 	}
 
